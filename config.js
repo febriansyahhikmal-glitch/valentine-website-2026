@@ -29,7 +29,7 @@ const CONFIG = {
         },
         second: {
             text: "Berapa persen sihh do u love me?",                          // For the love meter
-            startText: "Sebanyakk ini!",                                   // Text before the percentage
+            startText: "0 persen👀!",                                   // Text before the percentage
             nextBtn: "Lanjut cuyy💙"                                         // Text for the next button
         },
         third: {
@@ -44,7 +44,7 @@ const CONFIG = {
     loveMessages: {
         extreme: "Just wow..Are u serious?! Gpp aku tau kok 🌚🌊🩵",  // Shows when they go past 5000%
         high: "Speechless 🌝🩵",              // Shows when they go past 1000%
-        normal: "0 Persen👀"                           // Shows when they go past 100%
+        normal: "Masih 0 Persen👀"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
@@ -67,10 +67,10 @@ const CONFIG = {
     // Animation settings
     // Adjust these if you want faster/slower animations
     animations: {
-        floatDuration: "15s",           // How long it takes hearts to float up (10-20s recommended)
-        floatDistance: "50px",          // How far hearts move sideways (30-70px recommended)
+        floatDuration: "10s",           // How long it takes hearts to float up (10-20s recommended)
+        floatDistance: "70px",          // How far hearts move sideways (30-70px recommended)
         bounceSpeed: "0.5s",            // Speed of bouncing animations (0.3-0.7s recommended)
-        heartExplosionSize: 1.5         // Size of heart explosion effect (1.2-2.0 recommended)
+        heartExplosionSize: 1.2         // Size of heart explosion effect (1.2-2.0 recommended)
     },
 
     // Background Music (Optional)
